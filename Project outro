@@ -1,0 +1,13 @@
+p2p_lending_platform/
+│
+├── src/
+│   ├── Main.java                 # Entry point
+│   ├── Loan.java                 # Loan entity
+│   ├── User.java                 # User entity
+│   ├── LoanManager.java          # Handles loan processing & repayments
+│   └── S3Manager.java            # Upload documents to S3
+├── sql/
+│   ├── p2p_schema.sql            # Database schema
+│   └── triggers.sql              # SQL triggers for alerts
+├── Dockerfile                    # For secure execution on EC2
+└── README.md
