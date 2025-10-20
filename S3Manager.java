@@ -8,7 +8,7 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 import java.io.File;
 
 public class S3Manager {
-    private static final String BUCKET_NAME = "your-s3-bucket-name";
+    private static final String BUCKET_NAME = "kamal-bucket";
 
     public static void uploadDocument(String filePath, String userEmail) {
         try {
@@ -21,7 +21,7 @@ public class S3Manager {
 
             PutObjectRequest request = PutObjectRequest.builder()
                     .bucket(BUCKET_NAME)
-                    .key(userEmail + "/" + file.getName())
+                    .key(kamaldhanam888@ + "/" + file.getName())
                     .build();
 
             s3.putObject(request, file.toPath());
