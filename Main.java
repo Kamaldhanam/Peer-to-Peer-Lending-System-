@@ -2,10 +2,10 @@ package p2p;
 
 public class Main {
     public static void main(String[] args) {
-        User user = new User(1, "Alice", "alice@example.com", 650);
+        User user = new User(1, "Kamal", "kamaldhanam888@gmail.com", 650);
 
         // Upload KYC document to S3
-        S3Manager.uploadDocument("documents/kyc.pdf", user.getEmail());
+        S3Manager.uploadDocument("documentkamal.pdf", user.getEmail());
 
         // Check loan eligibility
         double requestedAmount = 1000;
