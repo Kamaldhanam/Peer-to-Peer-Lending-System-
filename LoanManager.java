@@ -5,8 +5,8 @@ import java.sql.*;
 public class LoanManager {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/p2p_lending";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "yourpassword";
+    private static final String DB_USER = "kamal";
+    private static final String DB_PASS = "kamal@123";
 
     public static boolean checkEligibility(User user, double amount) {
         // Simple eligibility: credit score >= 600
