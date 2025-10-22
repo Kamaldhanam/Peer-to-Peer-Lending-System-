@@ -9,7 +9,6 @@ public class LoanManager {
     private static final String DB_PASS = "kamal@123";
 
     public static boolean checkEligibility(User user, double amount) {
-        // Simple eligibility: credit score >= 600
         return user.getCreditScore() >= 600;
     }
 
