@@ -3,7 +3,6 @@ package p2p;
 import java.time.LocalDate;
 
 public class Loan {
-    private int id;
     private int userId;
     private double principal;
     private double interestRate;
