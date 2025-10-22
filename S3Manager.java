@@ -21,7 +21,7 @@ public class S3Manager {
 
             PutObjectRequest request = PutObjectRequest.builder()
                     .bucket(BUCKET_NAME)
-                    .key(kamaldhanam888@ + "/" + file.getName())
+                    .key(userEmail + "/" + file.getName())
                     .build();
 
             s3.putObject(request, file.toPath());
