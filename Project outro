@@ -9,5 +9,4 @@ p2p_lending_platform/
 ├── sql/
 │   ├── p2p_schema.sql            # Database schema
 │   └── triggers.sql              # SQL triggers for alerts
-├── Dockerfile                    # For secure execution on EC2
-└── README.md
+|__
